@@ -1,0 +1,29 @@
+.current_month{
+    text-align: center;
+    display: inline;
+    margin: 500px;
+}
+
+.month{
+    min-height: 130px;
+    width: 250px;
+    display: inline;
+    margin: 50px;
+}
+
+.days{
+    text-align: center;
+    display: inline-block;
+    font-size: large;
+    height: 20px;
+    width: 80px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#calendar{
+    align-items: center;
+}
