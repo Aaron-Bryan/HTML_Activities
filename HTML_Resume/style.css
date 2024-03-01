@@ -1,0 +1,87 @@
+*{
+    margin: 10px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    height: auto;
+    width: 950px;
+    margin-left: 300px;
+    background-image: linear-gradient(rgb(188, 207, 214), rgb(238, 238, 238), rgb(188, 207, 214));
+}
+
+#profile_pic{
+    height:  auto;
+    width: 200px;
+    top: 10px;
+    display: inline-block;
+}
+
+#contact{
+    height: auto;
+    width: 450px;
+    display: inline-block;
+}
+
+#name{
+    color: rgba(42, 42, 172, 0.781);
+    font-weight: bolder;
+}
+
+#introduction{
+    background-color: rgba(204, 199, 199, 0.432);
+}
+
+#languages{
+    height: auto;
+    width: 395px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#projects{
+    height: auto;
+    width: 400px;
+    display: inline-block;
+    background-color: rgba(204, 199, 199, 0.432);
+}
+
+#foot{
+    height: auto;
+    width: 1095px;
+    display: inline-block;
+}
+
+.contact_info{
+    margin: 10px;
+    display: inline-block;
+}
+
+.intro_header{
+    text-align: center;
+}
+
+.used_languages{
+    height: auto;
+    width: 40px;
+}
+
+.links{
+    height: auto;
+    width: 200px;
+    display: inline-block;
+}
+
+.link_img{
+    height: auto;
+    width: 20px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.link_text{
+    margin: 0px;
+    vertical-align: top;
+    display: inline-block;
+}

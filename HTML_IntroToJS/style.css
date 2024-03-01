@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#sidebar{
+    position:absolute;
+    left: auto;
+    width: 200px;
+    min-height: 900px;
+    margin: 0px;
+    border: solid gray;
+    border-width: thin;
+    display: inline-block;
+    background-color: rgb(252, 243, 231);
+}
+
+#chapter, #lesson{
+    color: gray;
+}
+
+#main{
+    position: relative;
+    left: 210px;
+    right: auto;
+    min-height: 900px;
+    width: 970px;
+    display: inline-block;
+}
+
+#content{
+    padding: 10px;
+    margin: 10px;
+}
+
+#javascript_origin{
+    padding: 20px;
+    margin: 20px;
+    border: solid gray;
+    border-width: thin;
+}
+
+#engines{
+    padding: 20px;
+    margin: 20px;
+    border: solid gray;
+    border-width: thin;
+}
+
+#sidebar_chapter{
+    padding: 10px;
+    margin: 10px;
+}
+
+#sidebar_lesson{
+    padding: 10px;
+    margin: 10px;
+}
+
+#lesson_bullet{
+    list-style-type: none;
+}
